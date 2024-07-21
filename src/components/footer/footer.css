@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: gainsboro;
+    gap: 2rem;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer > div{
+    display: flex;
+    gap: 3rem;
+}
+.footer > div> a> i{
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: black;
+}

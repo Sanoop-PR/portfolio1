@@ -1,0 +1,21 @@
+#about{
+    border: 1px dashed #adb5bd;
+    margin: 0 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+p{
+    text-align: justify;
+}
+@media (max-width: 500px) {
+    #about{
+        display: inline-block;
+        /* width: 100%; */
+    }
+}
